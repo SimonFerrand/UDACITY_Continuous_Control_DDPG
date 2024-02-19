@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 # Add the environment to Jupyter
 python -m ipykernel install --user --name DRL_udacity_cpu --display-name "Python 3.6 (DRL_udacity_cpu)"
-```bash
+```
 
 ## Training the Agent
 
