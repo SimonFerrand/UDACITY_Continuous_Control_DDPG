@@ -65,7 +65,7 @@ To start training the agent:
 
 The training process concludes once the agents achieve an average score of +30 over 100 consecutive episodes, or after 300 episodes, whichever comes first. The models for the actor and critic are saved as `checkpoint_actor.pth` and `checkpoint_critic.pth`, respectively.
 
-## Report
+## Abstract
 
 This [Report.pdf](./Report.pdf) delineates the process of designing and refining a deep reinforcement learning agent capable of continuous control tasks within the Unity ML-Agents environment. Utilizing the Deep Deterministic Policy Gradient (DDPG) algorithm, the agent was trained to navigate and maintain a double-jointed arm at target locations. 
 The evolutionary approach to agent design involved iterative code refinement and testing, resulting in advancements in performance metrics, but addressing one of the limitations of reinforcement learning, which is the instability of learning that can manifest as huge drops in performance, particularly pronounced with DDPG.
