@@ -35,7 +35,7 @@ Clone the course repository and set up the Python environment:
 ```bash
 # Clone the required repositories
 git clone https://github.com/udacity/deep-reinforcement-learning.git
-git clone https://github.com/Yoshiokha/Deep_Reinforcement_Learning_Nanodegree_UDACITY/Project2_Continuous_Control.git
+git clone https://github.com/SimonFerrand/UDACITY_Continuous_Control_DDPG/Project2_Continuous_Control.git
 
 # Navigate to the project directory
 cd Project2_Continuous_Control
