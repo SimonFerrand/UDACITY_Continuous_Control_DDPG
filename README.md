@@ -4,11 +4,11 @@
 
 This project is the second major assignment of the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) course offered by UDACITY.
 
+![Trained Agent](https://video.udacity-data.com/topher/2018/June/5b1ea778_reacher/reacher.gif "Trained Agent")
+
 It focuses on training an agent to control a double-jointed arm to follow a target location for as long as possible. A reward of +0.1 is awarded for each timestep the hand is in the target location, encouraging the agent to keep the position. The state space includes 33 dimensions representing the arm's position, rotation, velocity, and angular velocities. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1. 
 The agent must learn to generate appropriate torque for the arm's four continuous actions. 
 The challenge is considered solved when 20 identical agents (operating in parallel) achieve an average score of +30 over 100 consecutive episodes.
-
-![Trained Agent](https://video.udacity-data.com/topher/2018/June/5b1ea778_reacher/reacher.gif "Trained Agent")
 
 ## Setup Instructions
 
