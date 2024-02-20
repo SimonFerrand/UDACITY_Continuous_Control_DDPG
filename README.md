@@ -12,21 +12,9 @@ The challenge is considered solved when 20 identical agents (operating in parall
 
 ## Setup Instructions
 
-### Prerequisites
-
-- Python 3.6
-
-### Environment Setup
-
-1. Download the Reacher environment compatible with your operating system:
-   - Linux: [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
-   - Mac OSX: [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
-   - Windows (32-bit): [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
-   - Windows (64-bit): [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
-   
-   For Windows users unsure of their system type, consult [this guide](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64). For AWS users planning to train the agent without a virtual screen, use [this version](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip).
-
-2. Extract the downloaded environment into the `Project2_Continuous_Control/` directory.
+My installation was based on 
+* Windows 10 x64-based PC
+* Python 3.6.13 :: Anaconda, Inc.
 
 ### Repository Setup
 
@@ -53,6 +41,17 @@ pip install -r requirements.txt
 # Add the environment to Jupyter
 python -m ipykernel install --user --name DRL_udacity_cpu --display-name "Python 3.6 (DRL_udacity_cpu)"
 ```
+### Environment Setup
+
+1. Download the Reacher environment compatible with your operating system:
+   - Linux: [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+   - Mac OSX: [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+   - Windows (32-bit): [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
+   - Windows (64-bit): [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+   
+   For Windows users unsure of their system type, consult [this guide](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64). For AWS users planning to train the agent without a virtual screen, use [this version](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip).
+
+2. Extract the downloaded environment into the `Project2_Continuous_Control/` directory.
 
 ## Training the Agent
 
